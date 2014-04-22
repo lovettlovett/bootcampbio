@@ -31,7 +31,7 @@ def paragraph():
 	rand_email = random.sample(emails, 1)
 	full_email = rand_name[0] + rand_email[0]
 
-	bio = "<h1 align='center' style='font-family: helvetica'>Bootcamp Bio Generator</h1><h2 align='center' style='font-family: helvetica'>%s, I'm %s.<br> I'm a %s.<br>%s %s, %s, and %s.<br><br>Let's chat!<br>%s</h2>" % (rand_salutation[0], rand_name[0], rand_profession[0], rand_alt_intro[0], passion_sample_1[0], passion_sample_2[0], passion_sample_3[0], full_email)
+	bio = "<h1 align='center' style='font-family: helvetica'>Bootcamp Bio Generator</h1><h2 align='center' style='font-family: helvetica'>%s, I'm %s.<br> I'm a %s.<br>%s %s, %s, and %s.<br><br>Let's chat!<br>%s</h2><br><br><br><br><br><br><br><h4>Reload the page to create a new dev!</h4>" % (rand_salutation[0], rand_name[0], rand_profession[0], rand_alt_intro[0], passion_sample_1[0], passion_sample_2[0], passion_sample_3[0], full_email)
 
 	return bio
 
